@@ -1,0 +1,42 @@
+# Proprietary License
+
+## License Terms
+
+This repository contains various research projects developed by Letxbe ("the Company").
+ Each project within this repository may be governed by its own specific license as
+ indicated within the project's directory.
+
+## Default License Terms
+
+For any project or content within this repository that does not explicitly specify
+its own license terms:
+
+1. **Proprietary Rights**: All rights, title, and interest in and to the software,
+code, data, documentation, and any other materials (collectively, the "Materials")
+are and shall remain the exclusive property of the Company.
+
+2. **Limited Rights**: Viewing and reading of the Materials on GitHub is permitted
+solely for evaluation and reference purposes.
+
+3. **Restrictions**: Unless explicitly permitted by a project-specific license or by
+written permission from the Company, you may not:
+   - Copy, modify, or distribute any part of the Materials
+   - Create derivative works based on the Materials
+   - Use the Materials for commercial purposes
+   - Reverse engineer, decompile, or disassemble any part of the Materials
+   - Remove or alter any proprietary notices or labels on the Materials
+
+4. **No Implied License**: Nothing in this repository or its availability shall be
+construed as granting, by implication, estoppel, or otherwise, any license or right
+to use the Materials beyond the terms stated herein.
+
+5. **No Warranty**: The Materials are provided "AS IS" without warranty of any kind,
+either expressed or implied, including, but not limited to, the implied warranties of
+merchantability and fitness for a particular purpose.
+
+## Intellectual Property
+
+All trademarks, service marks, trade names, trade dress, product names, and logos
+appearing in this repository are the property of their respective owners.
+
+© 2025 Letxbe. All rights reserved.

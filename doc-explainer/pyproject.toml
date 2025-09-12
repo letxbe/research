@@ -1,0 +1,69 @@
+[project]
+name = "doc_explainer"
+version = "0.1.1"
+description = "Explainable model to help you understand where document extracted information come from."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Letxbe Research", email = "research@letxbe.ai" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+dependencies = [
+    "torch",
+    "torchvision",
+    "transformers",
+    "huggingface_hub",
+    "anthropic",
+    "qwen-vl-utils"
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = [
+    ".uv_cache",
+    ".git",
+    "*.pyc",
+    "__pycache__",
+    ".venv",
+    "src/dataset",
+]
+[tool.hatch.build.targets.wheel]
+packages = ["src/doc_explainer"]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.ruff]
+target-version = "py311"
+include = ["*.py"]
+exclude = [
+    ".git",
+    "data",
+    ".venv",
+    "src/dataset",
+]
+line-length = 88
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+addopts = ["--strict-markers"]
+norecursedirs = ["data", ".uv_cache", ".venv", "src/data"]

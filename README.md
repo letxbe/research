@@ -48,6 +48,22 @@ our research team.
 }
 ```
 
+### Towards Reliable and Interpretable Document Question Answering via VLMs
+**Authors:** Alessio Chen, Simone Giovannini, Andrea Gemelli, Fabio Coppini, Simone Marinai
+**Year:** 2025
+**ArXiv:** [2509.10129](https://arxiv.org/abs/2509.10129)
+``` bibtex
+@misc{chen2025reliableinterpretabledocumentquestion,
+      title={Towards Reliable and Interpretable Document Question Answering via VLMs}, 
+      author={Alessio Chen and Simone Giovannini and Andrea Gemelli and Fabio Coppini and Simone Marinai},
+      year={2025},
+      eprint={2509.10129},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.10129}, 
+}
+```
+
 ## About Us
 
 Letxbe is a deeptech startup focused on developing innovative solutions through 

@@ -3,7 +3,7 @@ name = "doc_explainer"
 version = "0.1.1"
 description = "Explainable model to help you understand where document extracted information come from."
 readme = "README.md"
-license = "MIT"
+license = "apache-2.0"
 requires-python = ">=3.9"
 authors = [
     { name = "Letxbe Research", email = "research@letxbe.ai" },
@@ -12,7 +12,7 @@ classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "Intended Audience :: System Administrators",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: apache-2.0 License",
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",

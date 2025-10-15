@@ -4,7 +4,7 @@ version = "0.1.1"
 description = "Explainable model to help you understand where document extracted information come from."
 readme = "README.md"
 license = "apache-2.0"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 authors = [
     { name = "Letxbe Research", email = "research@letxbe.ai" },
 ]
@@ -12,7 +12,6 @@ classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "Intended Audience :: System Administrators",
-    "License :: OSI Approved :: apache-2.0 License",
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
@@ -24,7 +23,9 @@ dependencies = [
     "transformers",
     "huggingface_hub",
     "anthropic",
-    "qwen-vl-utils"
+    "qwen-vl-utils",
+    "accelerate",
+    "num2words>=0.5.14",
 ]
 
 [dependency-groups]
